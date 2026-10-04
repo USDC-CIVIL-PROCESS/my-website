@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <meta
+      name="description"
+      content="A simple, modern starter website built from scratch."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top">MyWebsite</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button-small" href="#contact">Get Started</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Welcome</p>
+            <h1>Build something meaningful online.</h1>
+            <p class="lead">
+              This is a clean starter website for your next idea — simple, fast,
+              and ready to customize.
+            </p>
+            <div class="cta-row">
+              <a class="button" href="#work">View Projects</a>
+              <a class="button button-secondary" href="#about">Learn More</a>
+            </div>
+            <ul class="mini-stats" aria-label="Key statistics">
+              <li><strong>1</strong><span>Launch-ready site</span></li>
+              <li><strong>24/7</strong><span>Online presence</span></li>
+              <li><strong>100%</strong><span>Customizable</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Preview panel">
+            <div class="mock-window">
+              <div class="window-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="window-content">
+                <div class="chart-block">
+                  <div class="chart-line"></div>
+                </div>
+                <div class="mini-cards">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Designed to help your ideas stand out.</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon">A</div>
+              <h3>Clear messaging</h3>
+              <p>
+                Present your value quickly with a layout built to guide visitors
+                from attention to action.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="icon">B</div>
+              <h3>Modern style</h3>
+              <p>
+                Give your project a polished, professional feel without needing a
+                large frontend setup.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="icon">C</div>
+              <h3>Easy to edit</h3>
+              <p>
+                Update text, pricing, blocks, and colors in a few simple places as
+                your project grows.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section alt-bg">
+        <div class="container two-col">
+          <div>
+            <p class="eyebrow">Services</p>
+            <h2>Everything you need for a strong online presence.</h2>
+          </div>
+          <div class="service-list">
+            <div>
+              <h3>Brand identity</h3>
+              <p>Create a confident, memorable impression for your audience.</p>
+            </div>
+            <div>
+              <h3>Website design</h3>
+              <p>Turn ideas into clean, attractive landing pages and sections.</p>
+            </div>
+            <div>
+              <h3>Launch support</h3>
+              <p>Get your site ready for the world with a simple deployment flow.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Work</p>
+            <h2>Example projects and content blocks.</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <span class="tag">Marketing</span>
+              <h3>Landing page concept</h3>
+              <p>Convert attention into action with a focused value proposition.</p>
+            </article>
+            <article class="project-card">
+              <span class="tag">Portfolio</span>
+              <h3>Creative portfolio</h3>
+              <p>Showcase work in a way that feels premium and easy to explore.</p>
+            </article>
+            <article class="project-card">
+              <span class="tag">Business</span>
+              <h3>Startup homepage</h3>
+              <p>Communicate solutions, traction, and trust in one quick scan.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a class="brand" href="#top">MyWebsite</a>
+          <p>Let’s build something impactful together.</p>
+        </div>
+        <a class="button" href="mailto:hello@example.com">hello@example.com</a>
+      </div>
+      <div class="container copyright">
+        <p>© <span id="year"></span> MyWebsite</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
